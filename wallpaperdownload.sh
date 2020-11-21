@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script to download new wallpapers (from links entered into nano); sets them so I can see what they look like on the actual screen
+# Script to download new wallpaper (from links entered into nano); sets them so I can see what they look like on the actual screen
 cd /home/restlessmodem/Pictures/Wallpapers/wallpaperdownload/
 nano /tmp/wlplist
 sudo wget $(cat /tmp/wlplist) -P /home/restlessmodem/Pictures/Wallpapers/wallpaperdownload/
